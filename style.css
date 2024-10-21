@@ -5,7 +5,6 @@ body {
   margin: 0;
 }
 
-/* Navbar styling */
 .navbar {
   background-color: #536493;
   overflow: hidden;
@@ -25,7 +24,6 @@ body {
   background-color: #FFF1DB;
   color: #536493;
 }
-
 
 .content {
   padding: 20px;
