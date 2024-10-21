@@ -1,75 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Test</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TugasWeb</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <h2>Thy</h2>
-      </div>
+    <div class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="http.html">HTTP & HTTPS</a>
+        <a href="domain.html">Nama Domain</a>
+        <a href="hosting.html">Hosting</a>
+        <a href="dns.html">DNS</a>
+        <a href="browser.html">Browser</a>
     </div>
-  </header>
 
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>M. Fathy S.I. Madani</h1>
-      <hr size="3px" width="65%" align="left">
-      <p>Mahasiswa Universitas Hasanuddin </p>
-      <p>Teknik Informatika 2022</p>
-
-      <div class="btn-wrapper">
-        <a href="" class="btn facebook"><i class="fa fa-facebook-square"></i>Facebook</a>
-        <a href="" class="btn twitter"><i class="fa fa-twitter-square"></i>Twitter</a>
-      </div>
+    <div class="content">
+        <h1>Bagaimana cara kerja Internet?</h1>
+        <p>Internet bekerja dengan mengirimkan data dalam bentuk paket-paket kecil yang disebut packets. Data dipecah menjadi paket-paket ini, yang kemudian dikirim melalui berbagai perangkat jaringan seperti router dan switch. Setiap paket berisi data dan informasi tambahan yang disebut header untuk memastikan paket dapat sampai ke tujuan dan dirangkai kembali dengan benar. Teknik ini dikenal sebagai packet switching, yang memungkinkan data dikirim lebih cepat dan efisien karena paket dapat mengambil rute yang berbeda di jaringan.</p>
+        <p>Agar perangkat yang berbeda—dengan berbagai jenis perangkat keras dan perangkat lunak—dapat saling berkomunikasi, digunakan protokol standar seperti IP (Internet Protocol), TCP (Transmission Control Protocol), dan HTTP (HyperText Transfer Protocol). Protokol ini mengatur cara paket dikirim, diterima, dan diatur ulang, sehingga semua perangkat yang terhubung ke Internet bisa memahami dan menggunakan data yang diterima dengan benar. Dengan demikian, pertukaran informasi di seluruh dunia dapat berlangsung dengan cepat dan efektif.</p>
     </div>
-  </div>
 
-  <div class="lesson-wrapper">
-    <div class="container">
-      <h2>Pendidikan Formal</h2>
-
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="blue.png" alt="">
-            <p>Mts Sains Al-Gebra</p>
-          </div>
-          <p class="text-contents">2016-2019</p>
-        </div>
-
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="blue.png" alt="">
-            <p>SMA S Averos</p>
-          </div>
-          <p class="text-contents">2019-2022</p>
-        </div>
-
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="blue.png" alt="">
-            <p>Universitas Hasanuddin</p>
-          </div>
-          <p class="text-contents">2022-Sekarang</p>
-        </div>
-      </div>
+    <div class="footer">
+        <h3>Referensi : </h3>
+        <ul>
+            <li><a href="https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/">cloudflare.com</a></li>
+        </ul>
     </div>
-  </div>
 
 </body>
-
 </html>

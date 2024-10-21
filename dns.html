@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TugasWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="http.html">HTTP & HTTPS</a>
+        <a href="domain.html">Nama Domain</a>
+        <a href="hosting.html">Hosting</a>
+        <a href="dns.html">DNS</a>
+        <a href="browser.html">Browser</a>
+    </div>
+
+    <div class="content">
+        <h1>Definisi DNS</h1>
+        <p>Pengertian Domain Name System atau DNS server adalah sebuah sistem yang berfungsi untuk mengkonversi nama domain menjadi alamat IP. Server DNS ini bekerja sebagai jembatan antara nama domain dan alamat IP yang digunakan oleh komputer untuk menemukan lokasi situs web yang dituju.</p>
+        <p>Saat seseorang mengakses situs web, browser akan mengirimkan permintaan ke server DNS untuk menemukan alamat IP dari nama domain tersebut. Setelah alamat IP ditemukan, browser akan mengirimkan permintaan ke server web yang bersangkutan untuk mengambil konten dari situs web. Oleh karena itu, server DNS memainkan peran penting dalam memastikan konektivitas internet berjalan dengan lancar. Hal ini membuat proses mengakses situs web atau aplikasi menjadi lebih mudah dan cepat, karena kita tidak perlu mengingat alamat IP yang sulit diingat.Dengan adanya DNS server, kita dapat mengakses website hanya dengan mengetikkan nama domain-nya pada browser, seperti www.google.com misalnya, bukan dengan mengetikkan alamat IP-nya secara langsung. DNS server akan bertugas untuk mencari dan menyediakan informasi alamat IP yang sesuai dengan nama domain yang dicari.</p>
+        <p>DNS server bisa diibaratkan sebagai buku telepon besar yang mengaitkan nama domain dengan alamat IP. Setiap kali kita mengakses sebuah website, komputer atau perangkat akan mengirimkan permintaan ke DNS server untuk mencari alamat IP yang sesuai dengan nama domain yang dituju. Kemudian, DNS server akan mengirimkan informasi alamat IP tersebut ke perangkat yang meminta, sehingga kita dapat mengakses situs yang dituju dengan mudah.</p>
+
+        <h1>Cara Kerja DNS</h1>
+        <p>DNS bekerja dengan mengirimkan permintaan pencarian ke server ketika pengguna mengetik URL di bilah alamat browser. Proses ini dimulai dengan browser yang mengirimkan permintaan ke jaringan untuk menemukan alamat IP yang sesuai dengan nama domain yang dimasukkan. Permintaan tersebut diterima oleh DNS resolver atau pengulang DNS. Jika DNS resolver tidak memiliki alamat IP yang tersimpan dalam cache, ia akan mengirimkan permintaan lebih lanjut ke server nama root atau server nama TLD (Top-Level Domain) untuk mencari tahu di mana alamat IP yang tepat dapat ditemukan. Server root dan TLD akan bekerja bersama untuk mempersempit pencarian lokasi detail alamat IP tersebut.</p>
+        <p>Langkah terakhir dari proses ini melibatkan nameserver otoritatif, tempat alamat IP domain yang tepat ditemukan. Setelah itu, informasi ini diteruskan kembali ke DNS resolver, yang kemudian memberikan alamat IP yang benar kepada browser. Browser menggunakan alamat IP tersebut untuk mengunjungi situs web yang dimaksud. Selain itu, DNS resolver juga akan menyimpan catatan DNS di cache untuk mempercepat akses di masa mendatang ketika pengguna kembali mengunjungi situs tersebut. Meskipun melibatkan beberapa server, proses pencarian DNS ini berlangsung sangat cepat dan terjadi dalam waktu sekejap.</p>
+    </div>
+
+    <div class="footer">
+        <h3>Referensi : </h3>
+        <ul>
+            <li><a href="https://nordvpn.com/id/blog/apa-itu-dns/">nordvpn.com</a></li>
+            <li><a href="https://www.exabytes.co.id/blog/apa-itu-dns-server-adalah/#Apa-Itu-DNS-Server">exabytes.co.id</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

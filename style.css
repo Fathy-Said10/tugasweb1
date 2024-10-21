@@ -1,142 +1,41 @@
 body {
+  background-color: #96CEB4;
+  color: #FFF1DB;
+  font-family: Arial, sans-serif;
   margin: 0;
 }
 
-.top-wrapper {
-  background: url('langit02.jpg') no-repeat center center fixed;
-  background-size: cover;
-  padding-top: 180px;
-  padding-bottom: 100px;
+/* Navbar styling */
+.navbar {
+  background-color: #536493;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFF1DB;
   text-align: center;
-  color:white;
-  font-family: 'Staatliches', cursive;
-
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px; 
-  /* color: blue; */
-  /* background-color: skyblue; */
-}
-
-.top-wrapper h1 {
-  /* opacity: 0.9; */
-  font-size: 75px;
-  letter-spacing: 10px;
-  margin-bottom: 10px;
-  text-align: justify;
-  margin-left: 130px;
-  line-height: 40px;
-  font-family: 'Staatliches', cursive;
-
-
-}
-.top-wrapper h2 {
-  /* opacity: 0.9; */
-  font-size: 75px;
-  letter-spacing: 10px;
-  margin-bottom: 10px;
-  text-align: justify;
-  margin-left: 100px;
-  line-height: 40px;
-  font-family: 'Staatliches', cursive;
-
-}
-
-.top-wrapper p {
-  opacity: 0.9;
-  margin-bottom: 10px;
-  text-align: justify;
-  margin-left: 5px;
-  font-family: 'Source Code Pro', monospace;
-
- 
-}
-
-.btn {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
+  padding: 14px 16px;
   text-decoration: none;
-  text-align: left;
 }
 
-.btn:hover {
-  opacity: 1;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn-wrapper {
-  margin-top: 70px;
-  margin-bottom: 30px;
-  margin-right: 700px;
-  font-size: 20px;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  background-color:skyblue;
-  height: 70px;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-}
-
-.header-left {
-  float: left;
-}
-
-.lesson-wrapper {
-  text-align: center;
-  margin-top: 50px;
-  height: 400px;
-  font-family: 'Sigmar One', cursive;
-  letter-spacing: 3px;
-}
-
-.lesson {
-  width: 33%;
-  float: left;
-}
-
-.lesson-icon {
-  position: relative;
-  padding: 20px 15px;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 50px;
-  width: 65%;
-  margin-left: 70px;
-  color: black;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  font-size: 20px;
-  font-family: cursive;
+.navbar a:hover {
+  background-color: #FFF1DB;
+  color: #536493;
 }
 
 
+.content {
+  padding: 20px;
+  border: 1px solid #D4BDAC;
+  margin: 20px;
+  background-color: #536493;
+}
 
+.footer {
+  margin-top: 30px;
+  color: #536493;
+  padding-left: 70px;
+}
